@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(eve, eve@123, true)">logindataFromCSV(eve, eve@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.AlertPopUpTest" class="method navigator-link" hash-for-method="alertBoxTest">alertBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.CheckBoxOptionsTest" class="method navigator-link" hash-for-method="checkBoxOptionsTest">checkBoxOptionsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.ExplicitWaitElementTest" class="method navigator-link" hash-for-method="checkElementVisibility">checkElementVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.TestRadioButtons" class="method navigator-link" hash-for-method="getRadioButtons">getRadioButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.TestTitleOfThePage" class="method navigator-link" hash-for-method="getTitleOfPage">getTitleOfPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.WindowHandleTest" class="method navigator-link" hash-for-method="getWindowHandles">getWindowHandles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.TextAreaTest" class="method navigator-link" hash-for-method="javaScriptExecutorTest">javaScriptExecutorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.LoginTest" class="method navigator-link" hash-for-method="loginPageTest">loginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(adam, adam@123, true)">logindataFromCSV(adam, adam@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(in28minutes, dummy, true)">logindataFromCSV(in28minutes, dummy, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(adam, 12345, false)">logindataFromCSV(adam, 12345, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(eve, 123, false)">logindataFromCSV(eve, 123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="readDataFromCSV">readDataFromCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.readTableDataTest" class="method navigator-link" hash-for-method="readFromTableTest">readFromTableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.FormElementSelectTest" class="method navigator-link" hash-for-method="selectOptionFromDropDwon">selectOptionFromDropDwon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(adam, 12345, false)">successfulLoginDataProvider(adam, 12345, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(adam, adam@123, true)">successfulLoginDataProvider(adam, adam@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(eve, 123, false)">successfulLoginDataProvider(eve, 123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(in28minutes, dummy, true)">successfulLoginDataProvider(in28minutes, dummy, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(eve, eve@123, true)">successfulLoginDataProvider(eve, eve@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.test.TextAreaTest" class="method navigator-link" hash-for-method="textArearTest">textArearTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gui.automation.csvreader.readCSVTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindataFromCSV(eve, eve@123, true)">
+                  </a> <!-- logindataFromCSV(eve, eve@123, true) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(eve, eve@123, true)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;DESKTOP-9SGE8AP&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at com.gui.automation.csvreader.readCSVTest.logindataFromCSV(readCSVTest.java:59)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:22956/status] to be available after 20002 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 44 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 45 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.TestRadioButtons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRadioButtons">
+                  </a> <!-- getRadioButtons -->
+                  <span class="method-name">getRadioButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.CheckBoxOptionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBoxOptionsTest">
+                  </a> <!-- checkBoxOptionsTest -->
+                  <span class="method-name">checkBoxOptionsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest">
+                  </a> <!-- loginPageTest -->
+                  <span class="method-name">loginPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.TextAreaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="javaScriptExecutorTest">
+                  </a> <!-- javaScriptExecutorTest -->
+                  <span class="method-name">javaScriptExecutorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textArearTest">
+                  </a> <!-- textArearTest -->
+                  <span class="method-name">textArearTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.TestTitleOfThePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleOfPage">
+                  </a> <!-- getTitleOfPage -->
+                  <span class="method-name">getTitleOfPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.readTableDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFromTableTest">
+                  </a> <!-- readFromTableTest -->
+                  <span class="method-name">readFromTableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.AlertPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertBoxTest">
+                  </a> <!-- alertBoxTest -->
+                  <span class="method-name">alertBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.csvreader.readCSVTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindataFromCSV(adam, adam@123, true)">
+                  </a> <!-- logindataFromCSV(adam, adam@123, true) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(adam, adam@123, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindataFromCSV(in28minutes, dummy, true)">
+                  </a> <!-- logindataFromCSV(in28minutes, dummy, true) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(in28minutes, dummy, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindataFromCSV(adam, 12345, false)">
+                  </a> <!-- logindataFromCSV(adam, 12345, false) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(adam, 12345, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindataFromCSV(eve, 123, false)">
+                  </a> <!-- logindataFromCSV(eve, 123, false) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(eve, 123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readDataFromCSV">
+                  </a> <!-- readDataFromCSV -->
+                  <span class="method-name">readDataFromCSV</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.WindowHandleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWindowHandles">
+                  </a> <!-- getWindowHandles -->
+                  <span class="method-name">getWindowHandles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.FormElementSelectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOptionFromDropDwon">
+                  </a> <!-- selectOptionFromDropDwon -->
+                  <span class="method-name">selectOptionFromDropDwon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.ExplicitWaitElementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkElementVisibility">
+                  </a> <!-- checkElementVisibility -->
+                  <span class="method-name">checkElementVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(adam, 12345, false)">
+                  </a> <!-- successfulLoginDataProvider(adam, 12345, false) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(adam, 12345, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(adam, adam@123, true)">
+                  </a> <!-- successfulLoginDataProvider(adam, adam@123, true) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(adam, adam@123, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(eve, 123, false)">
+                  </a> <!-- successfulLoginDataProvider(eve, 123, false) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(eve, 123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(in28minutes, dummy, true)">
+                  </a> <!-- successfulLoginDataProvider(in28minutes, dummy, true) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(in28minutes, dummy, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(eve, eve@123, true)">
+                  </a> <!-- successfulLoginDataProvider(eve, eve@123, true) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(eve, eve@123, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gui.automation.csvreader.readCSVTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.dataprovider.test.DataProviderLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.AlertPopUpTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.CheckBoxOptionsTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.ExplicitWaitElementTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.FormElementSelectTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.readTableDataTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.TestRadioButtons&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.TestTitleOfThePage&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.TextAreaTest&quot;/&gt;
+      &lt;class name=&quot;com.gui.automation.test.WindowHandleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'alertBoxTest')
+data.setCell(0, 2, 'com.gui.automation.test.AlertPopUpTest')
+data.setCell(0, 3, 46309);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logindataFromCSV')
+data.setCell(1, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(1, 3, 29034);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logindataFromCSV')
+data.setCell(2, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(2, 3, 24387);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logindataFromCSV')
+data.setCell(3, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(3, 3, 21368);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logindataFromCSV')
+data.setCell(4, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(4, 3, 16586);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getWindowHandles')
+data.setCell(5, 2, 'com.gui.automation.test.WindowHandleTest')
+data.setCell(5, 3, 15135);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logindataFromCSV')
+data.setCell(6, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(6, 3, 15111);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'successfulLoginDataProvider')
+data.setCell(7, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(7, 3, 6417);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'javaScriptExecutorTest')
+data.setCell(8, 2, 'com.gui.automation.test.TextAreaTest')
+data.setCell(8, 3, 6102);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkBoxOptionsTest')
+data.setCell(9, 2, 'com.gui.automation.test.CheckBoxOptionsTest')
+data.setCell(9, 3, 4075);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkElementVisibility')
+data.setCell(10, 2, 'com.gui.automation.test.ExplicitWaitElementTest')
+data.setCell(10, 3, 4050);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectOptionFromDropDwon')
+data.setCell(11, 2, 'com.gui.automation.test.FormElementSelectTest')
+data.setCell(11, 3, 4005);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getRadioButtons')
+data.setCell(12, 2, 'com.gui.automation.test.TestRadioButtons')
+data.setCell(12, 3, 3989);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getTitleOfPage')
+data.setCell(13, 2, 'com.gui.automation.test.TestTitleOfThePage')
+data.setCell(13, 3, 3476);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'textArearTest')
+data.setCell(14, 2, 'com.gui.automation.test.TextAreaTest')
+data.setCell(14, 3, 3046);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'readFromTableTest')
+data.setCell(15, 2, 'com.gui.automation.test.readTableDataTest')
+data.setCell(15, 3, 2797);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginPageTest')
+data.setCell(16, 2, 'com.gui.automation.test.LoginTest')
+data.setCell(16, 3, 1111);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'successfulLoginDataProvider')
+data.setCell(17, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(17, 3, 705);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'successfulLoginDataProvider')
+data.setCell(18, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(18, 3, 658);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'successfulLoginDataProvider')
+data.setCell(19, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(19, 3, 547);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'successfulLoginDataProvider')
+data.setCell(20, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(20, 3, 539);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'readDataFromCSV')
+data.setCell(21, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(21, 3, 1);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.TextAreaTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.CheckBoxOptionsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.readTableDataTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.TestRadioButtons</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.TestTitleOfThePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.AlertPopUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.WindowHandleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.FormElementSelectTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.ExplicitWaitElementTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.csvreader.readCSVTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logindataFromCSV(in28minutes, dummy, true)</span>
+                <span class="method-start">28552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logindataFromCSV(adam, adam@123, true)</span>
+                <span class="method-start">52941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logindataFromCSV(adam, 12345, false)</span>
+                <span class="method-start">68053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logindataFromCSV(eve, eve@123, true)</span>
+                <span class="method-start">97088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logindataFromCSV(eve, 123, false)</span>
+                <span class="method-start">118545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readDataFromCSV</span>
+                <span class="method-start">135133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider(in28minutes, dummy, true)</span>
+                <span class="method-start">135141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider(adam, adam@123, true)</span>
+                <span class="method-start">141559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider(adam, 12345, false)</span>
+                <span class="method-start">142265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider(eve, eve@123, true)</span>
+                <span class="method-start">142813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider(eve, 123, false)</span>
+                <span class="method-start">143472 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.AlertPopUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">alertBoxTest</span>
+                <span class="method-start">144012 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.CheckBoxOptionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkBoxOptionsTest</span>
+                <span class="method-start">190325 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.ExplicitWaitElementTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkElementVisibility</span>
+                <span class="method-start">194401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.FormElementSelectTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectOptionFromDropDwon</span>
+                <span class="method-start">198452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest</span>
+                <span class="method-start">202458 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.readTableDataTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">readFromTableTest</span>
+                <span class="method-start">203570 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.TestRadioButtons</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRadioButtons</span>
+                <span class="method-start">206369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.TestTitleOfThePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getTitleOfPage</span>
+                <span class="method-start">210359 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.TextAreaTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">javaScriptExecutorTest</span>
+                <span class="method-start">213837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textArearTest</span>
+                <span class="method-start">219941 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.test.WindowHandleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getWindowHandles</span>
+                <span class="method-start">222989 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">238126 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="9" name="Com-GUI-AutomationTest">
+    <classes>
+      <class name="com.gui.automation.test.FormElementSelectTest"/>
+      <class name="com.gui.automation.test.TestRadioButtons"/>      
+      <class name="com.gui.automation.test.AlertPopUpTest"/>      
+      <class name="com.gui.automation.test.CheckBoxOptionsTest"/>     
+      <class name="com.gui.automation.test.WindowHandleTest"/>
+      <class name="com.gui.automation.test.TestTitleOfThePage"/>
+      <class name="com.gui.automation.test.ExplicitWaitElementTest"/>
+      <class name="com.gui.automation.test.TextAreaTest"/>
+      <class name="com.gui.automation.test.LoginTest"/>      
+    </classes>
+  </test> <!-- Com-GUI-AutomationTest --> 
+ 
+ <test name="Com-GUI-Automation-CSV-DataProvider">
+ <packages>
+ <package name="com.gui.automation.csvreader.*"></package>
+ </packages>
+ </test>
+ 
+ <test name="Com-GUI-Automation-DataProvider">
+ <packages>
+ <package name="com.gui.automation.dataprovider.test.*"></package>
+ </packages>
+ </test>
+   
+ <test name="FireFoxSpecificTest">
+  <parameter name="browser" value="firefox">
+  <classes>
+  <class name="com.gui.automation.test.readTableDataTest"></class>
+  </classes>
+  </parameter>
+ </test>
+ 
+ 
+  
+  
+</suite> <!-- Suite -->

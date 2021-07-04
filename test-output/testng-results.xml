@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-04T20:17:42Z" name="Default suite" finished-at="2021-07-04T20:18:29Z" duration-ms="46827">
+    <groups>
+    </groups>
+    <test started-at="2021-07-04T20:17:42Z" name="Default test" finished-at="2021-07-04T20:18:29Z" duration-ms="46827">
+      <class name="com.gui.automation.test.AlertPopUpTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:17:42Z" name="beforeTest" finished-at="2021-07-04T20:18:01Z" duration-ms="18913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:18:01Z" name="alertBoxTest" finished-at="2021-07-04T20:18:28Z" duration-ms="26988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertBoxTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:18:28Z" name="afterTest" finished-at="2021-07-04T20:18:29Z" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.gui.automation.test.AlertPopUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
