@@ -142,3 +142,31 @@
 [INFO ] 2021-07-06 15:30:09.837 [main] TextAreaTest - SomeText has been validated successfully after sending text to textbox
 [INFO ] 2021-07-06 15:30:10.752 [main] WindowHandleTest - Practice page is lauched
 [INFO ] 2021-07-06 15:30:27.103 [main] WindowHandleTest - Window title has been validated successfully
+[INFO ] 2021-07-06 16:19:15.194 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 16:19:19.531 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 16:19:27.564 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 16:19:27.718 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 16:19:30.419 [main] ExplicitWaitElementTest - Practice Page is launched
+[INFO ] 2021-07-06 16:19:30.541 [main] ExplicitWaitElementTest - hitext textbox clicked
+[INFO ] 2021-07-06 16:19:30.710 [main] ExplicitWaitElementTest - Validated that textbox is not displayed
+[INFO ] 2021-07-06 16:19:32.285 [main] ExplicitWaitElementTest - showText text box clicked
+[INFO ] 2021-07-06 16:19:34.096 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 16:19:34.526 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 16:19:34.527 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 16:19:34.755 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 16:19:35.320 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 16:19:35.667 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 16:19:35.668 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 16:19:36.543 [main] LoginTest - Practice page is launched
+[INFO ] 2021-07-06 16:19:37.361 [main] readTableDataTest - Launched automation practice page
+[INFO ] 2021-07-06 16:19:37.418 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 16:19:38.344 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 16:19:38.524 [main] readTableDataTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 16:19:39.689 [main] TestRadioButtons - Practice page is launched
+[INFO ] 2021-07-06 16:19:42.545 [main] TestRadioButtons - Radio option3 is selected and validated successfully
+[INFO ] 2021-07-06 16:19:43.532 [main] TestTitleOfThePage - Practice page is launched
+[INFO ] 2021-07-06 16:19:45.549 [main] TestTitleOfThePage - Page title has been validated successfully
+[INFO ] 2021-07-06 16:19:52.432 [main] TextAreaTest - Practice page is launched
+[INFO ] 2021-07-06 16:19:53.680 [main] TextAreaTest - SomeText has been validated successfully after sending text to textbox
+[INFO ] 2021-07-06 16:19:54.528 [main] WindowHandleTest - Practice page is lauched
+[INFO ] 2021-07-06 16:20:05.466 [main] WindowHandleTest - Window title has been validated successfully

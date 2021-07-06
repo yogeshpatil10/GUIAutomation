@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 27, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 433.61 sec <<< FAILURE!
-getResult(com.gui.automation.dataprovider.test.DataProviderLoginTest)  Time elapsed: 11.025 sec  <<< FAILURE!
+Tests run: 27, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 183.403 sec <<< FAILURE!
+getResult(com.gui.automation.dataprovider.test.DataProviderLoginTest)  Time elapsed: 7.781 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
 	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

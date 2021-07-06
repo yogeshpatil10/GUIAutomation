@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="27" failures="1" name="TestSuite" time="493.709" errors="0" skipped="8">
+<testsuite tests="27" failures="1" name="TestSuite" time="232.728" errors="0" skipped="8">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
@@ -60,14 +60,14 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="265.937"/>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="0.003"/>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="0.089"/>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="0.01"/>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="31.413"/>
-  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="readDataFromCSV" time="0.016"/>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="10.462"/>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="11.025">
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="21.13"/>
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="13.316"/>
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="19.05"/>
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="13.325"/>
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="logindataFromCSV" time="16.815"/>
+  <testcase classname="com.gui.automation.csvreader.readCSVTest" name="readDataFromCSV" time="0.024"/>
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="7.653"/>
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="7.781">
     <failure message="Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null
 	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -110,39 +110,39 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="11.039">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="7.782">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="11.039">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="7.782">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="11.039">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="7.783">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="11.04">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="7.783">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="11.04">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="7.783">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="11.04">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="7.783">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="11.04">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="successfulLoginDataProvider" time="7.784">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="11.04">
+  <testcase classname="com.gui.automation.dataprovider.test.DataProviderLoginTest" name="getResult" time="7.784">
     <skipped/>
   </testcase>
-  <testcase classname="com.gui.automation.test.AlertPopUpTest" name="alertBoxTest" time="38.167"/>
-  <testcase classname="com.gui.automation.test.CheckBoxOptionsTest" name="checkBoxOptionsTest" time="3.05"/>
-  <testcase classname="com.gui.automation.test.ExplicitWaitElementTest" name="checkElementVisibility" time="5.294"/>
-  <testcase classname="com.gui.automation.test.FormElementSelectTest" name="selectOptionFromDropDwon" time="2.3"/>
-  <testcase classname="com.gui.automation.test.LoginTest" name="loginPageTest" time="1.163"/>
-  <testcase classname="com.gui.automation.test.readTableDataTest" name="readFromTableTest" time="2.437"/>
-  <testcase classname="com.gui.automation.test.TestRadioButtons" name="getRadioButtons" time="4.076"/>
-  <testcase classname="com.gui.automation.test.TestTitleOfThePage" name="getTitleOfPage" time="3.604"/>
-  <testcase classname="com.gui.automation.test.TextAreaTest" name="javaScriptExecutorTest" time="6.08"/>
-  <testcase classname="com.gui.automation.test.TextAreaTest" name="textArearTest" time="3.001"/>
-  <testcase classname="com.gui.automation.test.WindowHandleTest" name="getWindowHandles" time="17.265"/>
+  <testcase classname="com.gui.automation.test.AlertPopUpTest" name="alertBoxTest" time="31.828"/>
+  <testcase classname="com.gui.automation.test.CheckBoxOptionsTest" name="checkBoxOptionsTest" time="2.658"/>
+  <testcase classname="com.gui.automation.test.ExplicitWaitElementTest" name="checkElementVisibility" time="4.77"/>
+  <testcase classname="com.gui.automation.test.FormElementSelectTest" name="selectOptionFromDropDwon" time="2.52"/>
+  <testcase classname="com.gui.automation.test.LoginTest" name="loginPageTest" time="0.688"/>
+  <testcase classname="com.gui.automation.test.readTableDataTest" name="readFromTableTest" time="1.971"/>
+  <testcase classname="com.gui.automation.test.TestRadioButtons" name="getRadioButtons" time="4.077"/>
+  <testcase classname="com.gui.automation.test.TestTitleOfThePage" name="getTitleOfPage" time="2.942"/>
+  <testcase classname="com.gui.automation.test.TextAreaTest" name="javaScriptExecutorTest" time="6.087"/>
+  <testcase classname="com.gui.automation.test.TextAreaTest" name="textArearTest" time="2.056"/>
+  <testcase classname="com.gui.automation.test.WindowHandleTest" name="getWindowHandles" time="11.773"/>
 </testsuite>
