@@ -51,6 +51,7 @@ public class readCSVTest {
 	}
 
 	@Test(dataProvider = "read-data-csv")
+	@Ignore
 	public void logindataFromCSV(String username, String pass, String isLoginToBeSuccessfulString) {
 
 		boolean isLoginToBeSuccessful = Boolean.valueOf(isLoginToBeSuccessfulString);
