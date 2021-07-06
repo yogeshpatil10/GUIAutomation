@@ -9,6 +9,8 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -22,7 +24,12 @@ public class TextAreaTest extends AbstractLaunchChromeBrowser {
 
 	@Test
 	public void textArearTest() throws IOException {
+		Logger logger = LogManager.getLogger(TextAreaTest.class);
+
+		test = report.createTest("Text Area Test");
+
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		logger.info("Practice page is launched");
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -38,6 +45,7 @@ public class TextAreaTest extends AbstractLaunchChromeBrowser {
 		String value = textArea.getAttribute("value");
 		System.out.println(value);
 		assertTrue(textArea.getAttribute("value").equals("SomeText"));
+		logger.info("SomeText has been validated successfully after sending text to textbox");
 
 	}
 

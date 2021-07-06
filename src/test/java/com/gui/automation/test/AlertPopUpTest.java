@@ -15,10 +15,13 @@ import org.testng.annotations.Test;
 import com.automate.web.firstcode.AbstractLaunchChromeBrowser;
 
 public class AlertPopUpTest extends AbstractLaunchChromeBrowser {
+
 	@Test
 	public void alertBoxTest() {
 
 		Logger logger = LogManager.getLogger(AlertPopUpTest.class);
+
+		test = report.createTest("Alert Test");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();

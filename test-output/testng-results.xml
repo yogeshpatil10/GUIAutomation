@@ -1,13 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="32" total="54" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-04T20:17:42Z" name="Default suite" finished-at="2021-07-04T20:18:29Z" duration-ms="46827">
+  <suite started-at="2021-07-06T05:37:09Z" name="Suite" finished-at="2021-07-06T05:41:13Z" duration-ms="244346">
     <groups>
     </groups>
-    <test started-at="2021-07-04T20:17:42Z" name="Default test" finished-at="2021-07-04T20:18:29Z" duration-ms="46827">
-      <class name="com.gui.automation.test.AlertPopUpTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:17:42Z" name="beforeTest" finished-at="2021-07-04T20:18:01Z" duration-ms="18913" status="PASS">
+    <test started-at="2021-07-06T05:37:09Z" name="Com-GUI-AutomationTest" finished-at="2021-07-06T05:38:56Z" duration-ms="106970">
+      <class name="com.gui.automation.test.TestTitleOfThePage">
+        <test-method signature="getTitleOfPage()[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@21129f1f]" started-at="2021-07-06T05:38:24Z" name="getTitleOfPage" finished-at="2021-07-06T05:38:43Z" duration-ms="18497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleOfPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@21129f1f]" started-at="2021-07-06T05:38:43Z" name="getResult" finished-at="2021-07-06T05:38:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitleOfPage status=SUCCESS method=TestTitleOfThePage.getTitleOfPage()[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@21129f1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.TestTitleOfThePage -->
+      <class name="com.gui.automation.test.WindowHandleTest">
+        <test-method signature="getWindowHandles()[pri:0, instance:com.gui.automation.test.WindowHandleTest@352c1b98]" started-at="2021-07-06T05:38:15Z" name="getWindowHandles" finished-at="2021-07-06T05:38:24Z" duration-ms="8981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWindowHandles -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.WindowHandleTest@352c1b98]" started-at="2021-07-06T05:38:24Z" name="getResult" finished-at="2021-07-06T05:38:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWindowHandles status=SUCCESS method=WindowHandleTest.getWindowHandles()[pri:0, instance:com.gui.automation.test.WindowHandleTest@352c1b98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.WindowHandleTest -->
+      <class name="com.gui.automation.test.TextAreaTest">
+        <test-method signature="javaScriptExecutorTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7]" started-at="2021-07-06T05:38:46Z" name="javaScriptExecutorTest" finished-at="2021-07-06T05:38:52Z" duration-ms="6080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptExecutorTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7]" started-at="2021-07-06T05:38:52Z" name="getResult" finished-at="2021-07-06T05:38:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=javaScriptExecutorTest status=SUCCESS method=TextAreaTest.javaScriptExecutorTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="textArearTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7]" started-at="2021-07-06T05:38:52Z" name="textArearTest" finished-at="2021-07-06T05:38:54Z" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textArearTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7]" started-at="2021-07-06T05:38:54Z" name="getResult" finished-at="2021-07-06T05:38:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textArearTest status=SUCCESS method=TextAreaTest.textArearTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@282cb7c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.TextAreaTest -->
+      <class name="com.gui.automation.test.ExplicitWaitElementTest">
+        <test-method signature="checkElementVisibility()[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@5a9f4771]" started-at="2021-07-06T05:38:43Z" name="checkElementVisibility" finished-at="2021-07-06T05:38:46Z" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementVisibility -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@5a9f4771]" started-at="2021-07-06T05:38:46Z" name="getResult" finished-at="2021-07-06T05:38:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkElementVisibility status=SUCCESS method=ExplicitWaitElementTest.checkElementVisibility()[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@5a9f4771] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.ExplicitWaitElementTest -->
+      <class name="com.gui.automation.test.FormElementSelectTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.test.FormElementSelectTest@6057aebb]" started-at="2021-07-06T05:37:09Z" name="beforeTest" finished-at="2021-07-06T05:37:26Z" duration-ms="17199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +101,428 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:18:01Z" name="alertBoxTest" finished-at="2021-07-04T20:18:28Z" duration-ms="26988" status="PASS">
+        <test-method signature="selectOptionFromDropDwon()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@6057aebb]" started-at="2021-07-06T05:37:26Z" name="selectOptionFromDropDwon" finished-at="2021-07-06T05:37:58Z" duration-ms="31607" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alertBoxTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@6cb6decd]" started-at="2021-07-04T20:18:28Z" name="afterTest" finished-at="2021-07-04T20:18:29Z" duration-ms="878" status="PASS">
+        </test-method> <!-- selectOptionFromDropDwon -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.FormElementSelectTest@6057aebb]" started-at="2021-07-06T05:37:58Z" name="getResult" finished-at="2021-07-06T05:37:58Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectOptionFromDropDwon status=SUCCESS method=FormElementSelectTest.selectOptionFromDropDwon()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@6057aebb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@6057aebb]" started-at="2021-07-06T05:38:54Z" name="afterTest" finished-at="2021-07-06T05:38:56Z" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+      </class> <!-- com.gui.automation.test.FormElementSelectTest -->
+      <class name="com.gui.automation.test.AlertPopUpTest">
+        <test-method signature="alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@53251a66]" started-at="2021-07-06T05:38:02Z" name="alertBoxTest" finished-at="2021-07-06T05:38:14Z" duration-ms="11532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertBoxTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.AlertPopUpTest@53251a66]" started-at="2021-07-06T05:38:14Z" name="getResult" finished-at="2021-07-06T05:38:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertBoxTest status=SUCCESS method=AlertPopUpTest.alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@53251a66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.AlertPopUpTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.gui.automation.test.CheckBoxOptionsTest">
+        <test-method signature="checkBoxOptionsTest()[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@6853425f]" started-at="2021-07-06T05:38:14Z" name="checkBoxOptionsTest" finished-at="2021-07-06T05:38:15Z" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxOptionsTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@6853425f]" started-at="2021-07-06T05:38:15Z" name="getResult" finished-at="2021-07-06T05:38:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBoxOptionsTest status=SUCCESS method=CheckBoxOptionsTest.checkBoxOptionsTest()[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@6853425f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.CheckBoxOptionsTest -->
+      <class name="com.gui.automation.test.TestRadioButtons">
+        <test-method signature="getRadioButtons()[pri:0, instance:com.gui.automation.test.TestRadioButtons@63eef88a]" started-at="2021-07-06T05:37:58Z" name="getRadioButtons" finished-at="2021-07-06T05:38:02Z" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRadioButtons -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TestRadioButtons@63eef88a]" started-at="2021-07-06T05:38:02Z" name="getResult" finished-at="2021-07-06T05:38:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRadioButtons status=SUCCESS method=TestRadioButtons.getRadioButtons()[pri:0, instance:com.gui.automation.test.TestRadioButtons@63eef88a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.TestRadioButtons -->
+      <class name="com.gui.automation.test.LoginTest">
+        <test-method signature="loginPageTest()[pri:0, instance:com.gui.automation.test.LoginTest@7d898981]" started-at="2021-07-06T05:38:54Z" name="loginPageTest" finished-at="2021-07-06T05:38:54Z" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.LoginTest@7d898981]" started-at="2021-07-06T05:38:54Z" name="getResult" finished-at="2021-07-06T05:38:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTest status=SUCCESS method=LoginTest.loginPageTest()[pri:0, instance:com.gui.automation.test.LoginTest@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.LoginTest -->
+    </test> <!-- Com-GUI-AutomationTest -->
+    <test started-at="2021-07-06T05:38:56Z" name="Com-GUI-Automation-CSV-DataProvider" finished-at="2021-07-06T05:39:25Z" duration-ms="28901">
+      <class name="com.gui.automation.csvreader.readCSVTest">
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:38:56Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T05:39:12Z" duration-ms="15192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in28minutes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:39:12Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T05:39:16Z" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adam@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:39:16Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T05:39:19Z" duration-ms="3265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:39:19Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T05:39:22Z" duration-ms="2882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:39:22Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T05:39:25Z" duration-ms="3101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="readDataFromCSV()[pri:0, instance:com.gui.automation.csvreader.readCSVTest@59e505b2]" started-at="2021-07-06T05:39:25Z" name="readDataFromCSV" finished-at="2021-07-06T05:39:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromCSV -->
+      </class> <!-- com.gui.automation.csvreader.readCSVTest -->
+    </test> <!-- Com-GUI-Automation-CSV-DataProvider -->
+    <test started-at="2021-07-06T05:39:25Z" name="Com-GUI-Automation-DataProvider" finished-at="2021-07-06T05:39:32Z" duration-ms="6263">
+      <class name="com.gui.automation.dataprovider.test.DataProviderLoginTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:25Z" name="beforeTest" finished-at="2021-07-06T05:39:28Z" duration-ms="2297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:28Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T05:39:29Z" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in28minutes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:29Z" name="getResult" finished-at="2021-07-06T05:39:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:29Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T05:39:30Z" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adam@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:30Z" name="getResult" finished-at="2021-07-06T05:39:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:30Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T05:39:30Z" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:30Z" name="getResult" finished-at="2021-07-06T05:39:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:30Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T05:39:31Z" duration-ms="468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:31Z" name="getResult" finished-at="2021-07-06T05:39:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:31Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T05:39:31Z" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:31Z" name="getResult" finished-at="2021-07-06T05:39:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@63611043]" started-at="2021-07-06T05:39:31Z" name="afterTest" finished-at="2021-07-06T05:39:32Z" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.gui.automation.dataprovider.test.DataProviderLoginTest -->
+    </test> <!-- Com-GUI-Automation-DataProvider -->
+    <test started-at="2021-07-06T05:39:32Z" name="FireFoxSpecificTest" finished-at="2021-07-06T05:41:13Z" duration-ms="101617">
+      <class name="com.gui.automation.test.readTableDataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:37:08Z" name="setUp" finished-at="2021-07-06T05:37:09Z" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:39:32Z" name="beforeTest" finished-at="2021-07-06T05:40:21Z" duration-ms="49843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="readFromTableTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:40:21Z" name="readFromTableTest" finished-at="2021-07-06T05:41:06Z" duration-ms="44184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFromTableTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:41:06Z" name="getResult" finished-at="2021-07-06T05:41:06Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readFromTableTest status=SUCCESS method=readTableDataTest.readFromTableTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:41:06Z" name="afterTest" finished-at="2021-07-06T05:41:13Z" duration-ms="7580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gui.automation.test.readTableDataTest@4b213651]" started-at="2021-07-06T05:41:13Z" name="tearDown" finished-at="2021-07-06T05:41:14Z" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gui.automation.test.readTableDataTest -->
+    </test> <!-- FireFoxSpecificTest -->
+  </suite> <!-- Suite -->
 </testng-results>

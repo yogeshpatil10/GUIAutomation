@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
-              <span class="suite-name border-failed">Command line suite</span>
+              <span class="suite-name border-skipped">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
+                    <span class="method-stats">22 methods,  4 skipped,  18 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Command_line_suite">
+                    <div class="method-list-content skipped suite-Command_line_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(eve, eve@123, true)">logindataFromCSV(eve, eve@123, true)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider">successfulLoginDataProvider</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider">successfulLoginDataProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider">successfulLoginDataProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider">successfulLoginDataProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -156,17 +171,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(adam, 12345, false)">logindataFromCSV(adam, 12345, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(adam, adam@123, true)">logindataFromCSV(adam, adam@123, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(in28minutes, dummy, true)">logindataFromCSV(in28minutes, dummy, true)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(eve, eve@123, true)">logindataFromCSV(eve, eve@123, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(adam, 12345, false)">logindataFromCSV(adam, 12345, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.csvreader.readCSVTest" class="method navigator-link" hash-for-method="logindataFromCSV(in28minutes, dummy, true)">logindataFromCSV(in28minutes, dummy, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -191,27 +211,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(adam, 12345, false)">successfulLoginDataProvider(adam, 12345, false)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(adam, adam@123, true)">successfulLoginDataProvider(adam, adam@123, true)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(eve, 123, false)">successfulLoginDataProvider(eve, 123, false)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(in28minutes, dummy, true)">successfulLoginDataProvider(in28minutes, dummy, true)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.gui.automation.dataprovider.test.DataProviderLoginTest" class="method navigator-link" hash-for-method="successfulLoginDataProvider(eve, eve@123, true)">successfulLoginDataProvider(eve, eve@123, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -231,58 +231,69 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-failed">
+          <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.gui.automation.csvreader.readCSVTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logindataFromCSV(eve, eve@123, true)">
-                  </a> <!-- logindataFromCSV(eve, eve@123, true) -->
-                  <span class="method-name">logindataFromCSV</span>
-                  <span class="parameters">(eve, eve@123, true)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;DESKTOP-9SGE8AP&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at com.gui.automation.csvreader.readCSVTest.logindataFromCSV(readCSVTest.java:59)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:22956/status] to be available after 20002 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
-	... 44 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-	... 45 more
-... Removed 35 stack frames
+                  <a name="successfulLoginDataProvider">
+                  </a> <!-- successfulLoginDataProvider -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null
+	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider">
+                  </a> <!-- successfulLoginDataProvider -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null
+	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider">
+                  </a> <!-- successfulLoginDataProvider -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null
+	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider">
+                  </a> <!-- successfulLoginDataProvider -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;com.automate.web.firstcode.AbstractLaunchChromeBrowser.test&quot; is null
+	at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+... Removed 38 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.TestRadioButtons</span>
+              <span class="class-name">com.gui.automation.test.TestTitleOfThePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getRadioButtons">
-                  </a> <!-- getRadioButtons -->
-                  <span class="method-name">getRadioButtons</span>
+                  <a name="getTitleOfPage">
+                  </a> <!-- getTitleOfPage -->
+                  <span class="method-name">getTitleOfPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -305,14 +316,90 @@ Caused by: java.util.concurrent.TimeoutException
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.LoginTest</span>
+              <span class="class-name">com.gui.automation.test.FormElementSelectTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageTest">
-                  </a> <!-- loginPageTest -->
-                  <span class="method-name">loginPageTest</span>
+                  <a name="selectOptionFromDropDwon">
+                  </a> <!-- selectOptionFromDropDwon -->
+                  <span class="method-name">selectOptionFromDropDwon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.readTableDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFromTableTest">
+                  </a> <!-- readFromTableTest -->
+                  <span class="method-name">readFromTableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLoginDataProvider(in28minutes, dummy, true)">
+                  </a> <!-- successfulLoginDataProvider(in28minutes, dummy, true) -->
+                  <span class="method-name">successfulLoginDataProvider</span>
+                  <span class="parameters">(in28minutes, dummy, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.AlertPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertBoxTest">
+                  </a> <!-- alertBoxTest -->
+                  <span class="method-name">alertBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.ExplicitWaitElementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkElementVisibility">
+                  </a> <!-- checkElementVisibility -->
+                  <span class="method-name">checkElementVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gui.automation.test.WindowHandleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWindowHandles">
+                  </a> <!-- getWindowHandles -->
+                  <span class="method-name">getWindowHandles</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -342,14 +429,14 @@ Caused by: java.util.concurrent.TimeoutException
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.TestTitleOfThePage</span>
+              <span class="class-name">com.gui.automation.test.TestRadioButtons</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getTitleOfPage">
-                  </a> <!-- getTitleOfPage -->
-                  <span class="method-name">getTitleOfPage</span>
+                  <a name="getRadioButtons">
+                  </a> <!-- getRadioButtons -->
+                  <span class="method-name">getRadioButtons</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -357,29 +444,14 @@ Caused by: java.util.concurrent.TimeoutException
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.readTableDataTest</span>
+              <span class="class-name">com.gui.automation.test.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="readFromTableTest">
-                  </a> <!-- readFromTableTest -->
-                  <span class="method-name">readFromTableTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.AlertPopUpTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="alertBoxTest">
-                  </a> <!-- alertBoxTest -->
-                  <span class="method-name">alertBoxTest</span>
+                  <a name="loginPageTest">
+                  </a> <!-- loginPageTest -->
+                  <span class="method-name">loginPageTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -392,6 +464,14 @@ Caused by: java.util.concurrent.TimeoutException
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="logindataFromCSV(adam, 12345, false)">
+                  </a> <!-- logindataFromCSV(adam, 12345, false) -->
+                  <span class="method-name">logindataFromCSV</span>
+                  <span class="parameters">(adam, 12345, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="logindataFromCSV(adam, adam@123, true)">
                   </a> <!-- logindataFromCSV(adam, adam@123, true) -->
                   <span class="method-name">logindataFromCSV</span>
@@ -400,18 +480,18 @@ Caused by: java.util.concurrent.TimeoutException
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logindataFromCSV(in28minutes, dummy, true)">
-                  </a> <!-- logindataFromCSV(in28minutes, dummy, true) -->
+                  <a name="logindataFromCSV(eve, eve@123, true)">
+                  </a> <!-- logindataFromCSV(eve, eve@123, true) -->
                   <span class="method-name">logindataFromCSV</span>
-                  <span class="parameters">(in28minutes, dummy, true)</span>
+                  <span class="parameters">(eve, eve@123, true)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logindataFromCSV(adam, 12345, false)">
-                  </a> <!-- logindataFromCSV(adam, 12345, false) -->
+                  <a name="logindataFromCSV(in28minutes, dummy, true)">
+                  </a> <!-- logindataFromCSV(in28minutes, dummy, true) -->
                   <span class="method-name">logindataFromCSV</span>
-                  <span class="parameters">(adam, 12345, false)</span>
+                  <span class="parameters">(in28minutes, dummy, true)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -427,99 +507,6 @@ Caused by: java.util.concurrent.TimeoutException
                   <a name="readDataFromCSV">
                   </a> <!-- readDataFromCSV -->
                   <span class="method-name">readDataFromCSV</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.WindowHandleTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getWindowHandles">
-                  </a> <!-- getWindowHandles -->
-                  <span class="method-name">getWindowHandles</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.FormElementSelectTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectOptionFromDropDwon">
-                  </a> <!-- selectOptionFromDropDwon -->
-                  <span class="method-name">selectOptionFromDropDwon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.test.ExplicitWaitElementTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkElementVisibility">
-                  </a> <!-- checkElementVisibility -->
-                  <span class="method-name">checkElementVisibility</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="successfulLoginDataProvider(adam, 12345, false)">
-                  </a> <!-- successfulLoginDataProvider(adam, 12345, false) -->
-                  <span class="method-name">successfulLoginDataProvider</span>
-                  <span class="parameters">(adam, 12345, false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="successfulLoginDataProvider(adam, adam@123, true)">
-                  </a> <!-- successfulLoginDataProvider(adam, adam@123, true) -->
-                  <span class="method-name">successfulLoginDataProvider</span>
-                  <span class="parameters">(adam, adam@123, true)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="successfulLoginDataProvider(eve, 123, false)">
-                  </a> <!-- successfulLoginDataProvider(eve, 123, false) -->
-                  <span class="method-name">successfulLoginDataProvider</span>
-                  <span class="parameters">(eve, 123, false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="successfulLoginDataProvider(in28minutes, dummy, true)">
-                  </a> <!-- successfulLoginDataProvider(in28minutes, dummy, true) -->
-                  <span class="method-name">successfulLoginDataProvider</span>
-                  <span class="parameters">(in28minutes, dummy, true)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="successfulLoginDataProvider(eve, eve@123, true)">
-                  </a> <!-- successfulLoginDataProvider(eve, eve@123, true) -->
-                  <span class="method-name">successfulLoginDataProvider</span>
-                  <span class="parameters">(eve, eve@123, true)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -588,98 +575,98 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(22);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'alertBoxTest')
-data.setCell(0, 2, 'com.gui.automation.test.AlertPopUpTest')
-data.setCell(0, 3, 46309);
+data.setCell(0, 1, 'logindataFromCSV')
+data.setCell(0, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(0, 3, 173067);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logindataFromCSV')
 data.setCell(1, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(1, 3, 29034);
+data.setCell(1, 3, 38821);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logindataFromCSV')
 data.setCell(2, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(2, 3, 24387);
+data.setCell(2, 3, 38601);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'logindataFromCSV')
-data.setCell(3, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(3, 3, 21368);
+data.setCell(3, 1, 'alertBoxTest')
+data.setCell(3, 2, 'com.gui.automation.test.AlertPopUpTest')
+data.setCell(3, 3, 38379);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'logindataFromCSV')
 data.setCell(4, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(4, 3, 16586);
+data.setCell(4, 3, 25018);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'getWindowHandles')
-data.setCell(5, 2, 'com.gui.automation.test.WindowHandleTest')
-data.setCell(5, 3, 15135);
+data.setCell(5, 1, 'logindataFromCSV')
+data.setCell(5, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(5, 3, 22082);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'logindataFromCSV')
-data.setCell(6, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(6, 3, 15111);
+data.setCell(6, 1, 'getWindowHandles')
+data.setCell(6, 2, 'com.gui.automation.test.WindowHandleTest')
+data.setCell(6, 3, 17264);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'successfulLoginDataProvider')
 data.setCell(7, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
-data.setCell(7, 3, 6417);
+data.setCell(7, 3, 10472);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'javaScriptExecutorTest')
 data.setCell(8, 2, 'com.gui.automation.test.TextAreaTest')
-data.setCell(8, 3, 6102);
+data.setCell(8, 3, 6081);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkBoxOptionsTest')
-data.setCell(9, 2, 'com.gui.automation.test.CheckBoxOptionsTest')
-data.setCell(9, 3, 4075);
+data.setCell(9, 1, 'checkElementVisibility')
+data.setCell(9, 2, 'com.gui.automation.test.ExplicitWaitElementTest')
+data.setCell(9, 3, 5294);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkElementVisibility')
-data.setCell(10, 2, 'com.gui.automation.test.ExplicitWaitElementTest')
-data.setCell(10, 3, 4050);
+data.setCell(10, 1, 'getRadioButtons')
+data.setCell(10, 2, 'com.gui.automation.test.TestRadioButtons')
+data.setCell(10, 3, 4094);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'selectOptionFromDropDwon')
-data.setCell(11, 2, 'com.gui.automation.test.FormElementSelectTest')
-data.setCell(11, 3, 4005);
+data.setCell(11, 1, 'getTitleOfPage')
+data.setCell(11, 2, 'com.gui.automation.test.TestTitleOfThePage')
+data.setCell(11, 3, 3604);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getRadioButtons')
-data.setCell(12, 2, 'com.gui.automation.test.TestRadioButtons')
-data.setCell(12, 3, 3989);
+data.setCell(12, 1, 'checkBoxOptionsTest')
+data.setCell(12, 2, 'com.gui.automation.test.CheckBoxOptionsTest')
+data.setCell(12, 3, 3050);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'getTitleOfPage')
-data.setCell(13, 2, 'com.gui.automation.test.TestTitleOfThePage')
-data.setCell(13, 3, 3476);
+data.setCell(13, 1, 'textArearTest')
+data.setCell(13, 2, 'com.gui.automation.test.TextAreaTest')
+data.setCell(13, 3, 3000);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'textArearTest')
-data.setCell(14, 2, 'com.gui.automation.test.TextAreaTest')
-data.setCell(14, 3, 3046);
+data.setCell(14, 1, 'readFromTableTest')
+data.setCell(14, 2, 'com.gui.automation.test.readTableDataTest')
+data.setCell(14, 3, 2417);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'readFromTableTest')
-data.setCell(15, 2, 'com.gui.automation.test.readTableDataTest')
-data.setCell(15, 3, 2797);
+data.setCell(15, 1, 'selectOptionFromDropDwon')
+data.setCell(15, 2, 'com.gui.automation.test.FormElementSelectTest')
+data.setCell(15, 3, 2300);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'loginPageTest')
 data.setCell(16, 2, 'com.gui.automation.test.LoginTest')
-data.setCell(16, 3, 1111);
+data.setCell(16, 3, 1159);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'successfulLoginDataProvider')
-data.setCell(17, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
-data.setCell(17, 3, 705);
+data.setCell(17, 1, 'readDataFromCSV')
+data.setCell(17, 2, 'com.gui.automation.csvreader.readCSVTest')
+data.setCell(17, 3, 1);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'successfulLoginDataProvider')
 data.setCell(18, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
-data.setCell(18, 3, 658);
+data.setCell(18, 3, 0);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'successfulLoginDataProvider')
 data.setCell(19, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
-data.setCell(19, 3, 547);
+data.setCell(19, 3, 0);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'successfulLoginDataProvider')
 data.setCell(20, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
-data.setCell(20, 3, 539);
+data.setCell(20, 3, 0);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'readDataFromCSV')
-data.setCell(21, 2, 'com.gui.automation.csvreader.readCSVTest')
-data.setCell(21, 3, 1);
+data.setCell(21, 1, 'successfulLoginDataProvider')
+data.setCell(21, 2, 'com.gui.automation.dataprovider.test.DataProviderLoginTest')
+data.setCell(21, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -694,49 +681,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">20 ignored methods</span>
+            <span class="header-content">40 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.LoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
-                <br/>
-                <span class="ignored-method-name">beforeTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.TextAreaTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
-                <br/>
-                <span class="ignored-method-name">beforeTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.gui.automation.test.CheckBoxOptionsTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">tearDown</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.readTableDataTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
-                <br/>
-                <span class="ignored-method-name">beforeTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.TestRadioButtons</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
+                <span class="ignored-method-name">setUp</span>
                 <br/>
                 <span class="ignored-method-name">beforeTest</span>
                 <br/>
@@ -747,6 +702,75 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.TextAreaTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.FormElementSelectTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.TestRadioButtons</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.readTableDataTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
                 <span class="ignored-method-name">beforeTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -756,23 +780,9 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">tearDown</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.WindowHandleTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
-                <br/>
-                <span class="ignored-method-name">beforeTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gui.automation.test.FormElementSelectTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
+                <span class="ignored-method-name">setUp</span>
                 <br/>
                 <span class="ignored-method-name">beforeTest</span>
                 <br/>
@@ -783,7 +793,24 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
                 <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gui.automation.test.WindowHandleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -796,143 +823,199 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">successfulLoginDataProvider</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(chrome)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">691 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.csvreader.readCSVTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logindataFromCSV(in28minutes, dummy, true)</span>
-                <span class="method-start">28552 ms</span>
+                <span class="method-start">32712 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logindataFromCSV(adam, adam@123, true)</span>
-                <span class="method-start">52941 ms</span>
+                <span class="method-start">205781 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logindataFromCSV(adam, 12345, false)</span>
-                <span class="method-start">68053 ms</span>
+                <span class="method-start">230800 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">logindataFromCSV(eve, eve@123, true)</span>
-                <span class="method-start">97088 ms</span>
+                <span class="method-start">252882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logindataFromCSV(eve, 123, false)</span>
-                <span class="method-start">118545 ms</span>
+                <span class="method-start">291704 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">readDataFromCSV</span>
-                <span class="method-start">135133 ms</span>
+                <span class="method-start">330307 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">successfulLoginDataProvider(in28minutes, dummy, true)</span>
-                <span class="method-start">135141 ms</span>
+                <span class="method-start">330313 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">successfulLoginDataProvider(adam, adam@123, true)</span>
-                <span class="method-start">141559 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">successfulLoginDataProvider(adam, 12345, false)</span>
-                <span class="method-start">142265 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">successfulLoginDataProvider(eve, eve@123, true)</span>
-                <span class="method-start">142813 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">successfulLoginDataProvider(eve, 123, false)</span>
-                <span class="method-start">143472 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulL...)</span>
+                <span class="method-start">340785 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.AlertPopUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">alertBoxTest</span>
-                <span class="method-start">144012 ms</span>
+                <span class="method-start">341151 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertBoxTest status=SUCCESS method=AlertPopUpTest.alertBoxTest()[pri:0, instance:co...)</span>
+                <span class="method-start">379530 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.CheckBoxOptionsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkBoxOptionsTest</span>
-                <span class="method-start">190325 ms</span>
+                <span class="method-start">379542 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkBoxOptionsTest status=SUCCESS method=CheckBoxOptionsTest.checkBoxOptionsTest()...)</span>
+                <span class="method-start">382592 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.ExplicitWaitElementTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkElementVisibility</span>
-                <span class="method-start">194401 ms</span>
+                <span class="method-start">382594 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkElementVisibility status=SUCCESS method=ExplicitWaitElementTest.checkElementVi...)</span>
+                <span class="method-start">387888 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.FormElementSelectTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectOptionFromDropDwon</span>
-                <span class="method-start">198452 ms</span>
+                <span class="method-start">387889 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=selectOptionFromDropDwon status=SUCCESS method=FormElementSelectTest.selectOptionFr...)</span>
+                <span class="method-start">390190 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginPageTest</span>
-                <span class="method-start">202458 ms</span>
+                <span class="method-start">390191 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginPageTest status=SUCCESS method=LoginTest.loginPageTest()[pri:0, instance:com.g...)</span>
+                <span class="method-start">391350 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.readTableDataTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">readFromTableTest</span>
-                <span class="method-start">203570 ms</span>
+                <span class="method-start">391352 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=readFromTableTest status=SUCCESS method=readTableDataTest.readFromTableTest()[pri:0...)</span>
+                <span class="method-start">393769 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.TestRadioButtons</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getRadioButtons</span>
-                <span class="method-start">206369 ms</span>
+                <span class="method-start">393771 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getRadioButtons status=SUCCESS method=TestRadioButtons.getRadioButtons()[pri:0, ins...)</span>
+                <span class="method-start">397865 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.TestTitleOfThePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getTitleOfPage</span>
-                <span class="method-start">210359 ms</span>
+                <span class="method-start">397867 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getTitleOfPage status=SUCCESS method=TestTitleOfThePage.getTitleOfPage()[pri:0, ins...)</span>
+                <span class="method-start">401471 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.TextAreaTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">javaScriptExecutorTest</span>
-                <span class="method-start">213837 ms</span>
+                <span class="method-start">401472 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=javaScriptExecutorTest status=SUCCESS method=TextAreaTest.javaScriptExecutorTest()[...)</span>
+                <span class="method-start">407553 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">textArearTest</span>
-                <span class="method-start">219941 ms</span>
+                <span class="method-start">407554 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=textArearTest status=SUCCESS method=TextAreaTest.textArearTest()[pri:0, instance:co...)</span>
+                <span class="method-start">410554 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.test.WindowHandleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getWindowHandles</span>
-                <span class="method-start">222989 ms</span>
+                <span class="method-start">410556 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getWindowHandles status=SUCCESS method=WindowHandleTest.getWindowHandles()[pri:0, i...)</span>
+                <span class="method-start">427820 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.gui.automation.dataprovider.test.DataProviderLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">238126 ms</span>
+                <span class="method-start">427822 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">429659 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,32 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Com-GUI-Automation-CSV-DataProvider(failed)">
+  <test thread-count="5" name="Com-GUI-AutomationTest(failed)">
     <classes>
-      <class name="com.gui.automation.csvreader.readCSVTest">
+      <class name="com.gui.automation.test.ExplicitWaitElementTest">
         <methods>
-          <include name="logindataFromCSV" invocation-numbers="0 1 2 3 4"/>
-        </methods>
-      </class> <!-- com.gui.automation.csvreader.readCSVTest -->
-    </classes>
-  </test> <!-- Com-GUI-Automation-CSV-DataProvider(failed) -->
-  <test thread-count="5" name="Com-GUI-Automation-DataProvider(failed)">
-    <classes>
-      <class name="com.gui.automation.dataprovider.test.DataProviderLoginTest">
-        <methods>
-          <include name="successfulLoginDataProvider" invocation-numbers="0 1 2 3 4"/>
+          <include name="getResult"/>
+          <include name="checkElementVisibility"/>
           <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.gui.automation.dataprovider.test.DataProviderLoginTest -->
+      </class> <!-- com.gui.automation.test.ExplicitWaitElementTest -->
+      <class name="com.gui.automation.test.TestTitleOfThePage">
+        <methods>
+          <include name="getResult"/>
+          <include name="getTitleOfPage"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.gui.automation.test.TestTitleOfThePage -->
+      <class name="com.gui.automation.test.TextAreaTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="textArearTest"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.gui.automation.test.TextAreaTest -->
+      <class name="com.gui.automation.test.LoginTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="loginPageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.gui.automation.test.LoginTest -->
     </classes>
-  </test> <!-- Com-GUI-Automation-DataProvider(failed) -->
+  </test> <!-- Com-GUI-AutomationTest(failed) -->
   <test thread-count="5" name="FireFoxSpecificTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.gui.automation.test.readTableDataTest">
         <methods>
+          <include name="getResult"/>
           <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="beforeTest"/>
           <include name="readFromTableTest"/>
         </methods>

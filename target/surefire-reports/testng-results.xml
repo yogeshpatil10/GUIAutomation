@@ -1,53 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="20" total="42" passed="21" failed="1" skipped="0">
+<testng-results ignored="40" total="62" passed="18" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-04T15:08:13Z" name="Command line suite" finished-at="2021-07-04T15:12:13Z" duration-ms="239978">
+  <suite started-at="2021-07-06T09:53:19Z" name="Command line suite" finished-at="2021-07-06T10:00:28Z" duration-ms="428418">
     <groups>
     </groups>
-    <test started-at="2021-07-04T15:08:13Z" name="Command line test" finished-at="2021-07-04T15:12:13Z" duration-ms="239978">
+    <test started-at="2021-07-06T09:53:19Z" name="Command line test" finished-at="2021-07-06T10:00:28Z" duration-ms="428418">
       <class name="com.gui.automation.test.TestTitleOfThePage">
-        <test-method signature="getTitleOfPage()[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@7e0e6aa2]" started-at="2021-07-04T15:11:43Z" name="getTitleOfPage" finished-at="2021-07-04T15:11:46Z" duration-ms="3476" status="PASS">
+        <test-method signature="getTitleOfPage()[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@544a2ea6]" started-at="2021-07-06T09:59:57Z" name="getTitleOfPage" finished-at="2021-07-06T10:00:00Z" duration-ms="3604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitleOfPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@544a2ea6]" started-at="2021-07-06T10:00:00Z" name="getResult" finished-at="2021-07-06T10:00:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitleOfPage status=SUCCESS method=TestTitleOfThePage.getTitleOfPage()[pri:0, instance:com.gui.automation.test.TestTitleOfThePage@544a2ea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.TestTitleOfThePage -->
       <class name="com.gui.automation.test.readTableDataTest">
-        <test-method signature="readFromTableTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@a74868d]" started-at="2021-07-04T15:11:36Z" name="readFromTableTest" finished-at="2021-07-04T15:11:39Z" duration-ms="2797" status="PASS">
+        <test-method signature="readFromTableTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@6ec8211c]" started-at="2021-07-06T09:59:50Z" name="readFromTableTest" finished-at="2021-07-06T09:59:53Z" duration-ms="2417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFromTableTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.readTableDataTest@6ec8211c]" started-at="2021-07-06T09:59:53Z" name="getResult" finished-at="2021-07-06T09:59:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readFromTableTest status=SUCCESS method=readTableDataTest.readFromTableTest()[pri:0, instance:com.gui.automation.test.readTableDataTest@6ec8211c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.readTableDataTest -->
       <class name="com.gui.automation.test.ExplicitWaitElementTest">
-        <test-method signature="checkElementVisibility()[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@78ac1102]" started-at="2021-07-04T15:11:27Z" name="checkElementVisibility" finished-at="2021-07-04T15:11:31Z" duration-ms="4050" status="PASS">
+        <test-method signature="checkElementVisibility()[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@1990a65e]" started-at="2021-07-06T09:59:41Z" name="checkElementVisibility" finished-at="2021-07-06T09:59:47Z" duration-ms="5294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkElementVisibility -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@1990a65e]" started-at="2021-07-06T09:59:47Z" name="getResult" finished-at="2021-07-06T09:59:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkElementVisibility status=SUCCESS method=ExplicitWaitElementTest.checkElementVisibility()[pri:0, instance:com.gui.automation.test.ExplicitWaitElementTest@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.ExplicitWaitElementTest -->
-      <class name="com.gui.automation.test.TextAreaTest">
-        <test-method signature="javaScriptExecutorTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@365185bd]" started-at="2021-07-04T15:11:46Z" name="javaScriptExecutorTest" finished-at="2021-07-04T15:11:53Z" duration-ms="6102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javaScriptExecutorTest -->
-        <test-method signature="textArearTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@365185bd]" started-at="2021-07-04T15:11:53Z" name="textArearTest" finished-at="2021-07-04T15:11:56Z" duration-ms="3046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textArearTest -->
-      </class> <!-- com.gui.automation.test.TextAreaTest -->
       <class name="com.gui.automation.test.WindowHandleTest">
-        <test-method signature="getWindowHandles()[pri:0, instance:com.gui.automation.test.WindowHandleTest@18bf3d14]" started-at="2021-07-04T15:11:56Z" name="getWindowHandles" finished-at="2021-07-04T15:12:11Z" duration-ms="15135" status="PASS">
+        <test-method signature="getWindowHandles()[pri:0, instance:com.gui.automation.test.WindowHandleTest@150c158]" started-at="2021-07-06T10:00:09Z" name="getWindowHandles" finished-at="2021-07-06T10:00:27Z" duration-ms="17264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWindowHandles -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.WindowHandleTest@150c158]" started-at="2021-07-06T10:00:27Z" name="getResult" finished-at="2021-07-06T10:00:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWindowHandles status=SUCCESS method=WindowHandleTest.getWindowHandles()[pri:0, instance:com.gui.automation.test.WindowHandleTest@150c158] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.WindowHandleTest -->
+      <class name="com.gui.automation.test.TextAreaTest">
+        <test-method signature="javaScriptExecutorTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542]" started-at="2021-07-06T10:00:00Z" name="javaScriptExecutorTest" finished-at="2021-07-06T10:00:06Z" duration-ms="6081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptExecutorTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542]" started-at="2021-07-06T10:00:06Z" name="getResult" finished-at="2021-07-06T10:00:06Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=javaScriptExecutorTest status=SUCCESS method=TextAreaTest.javaScriptExecutorTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="textArearTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542]" started-at="2021-07-06T10:00:06Z" name="textArearTest" finished-at="2021-07-06T10:00:09Z" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textArearTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542]" started-at="2021-07-06T10:00:09Z" name="getResult" finished-at="2021-07-06T10:00:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textArearTest status=SUCCESS method=TextAreaTest.textArearTest()[pri:0, instance:com.gui.automation.test.TextAreaTest@2e3fc542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.TextAreaTest -->
       <class name="com.gui.automation.test.FormElementSelectTest">
-        <test-method signature="selectOptionFromDropDwon()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@2de8284b]" started-at="2021-07-04T15:11:31Z" name="selectOptionFromDropDwon" finished-at="2021-07-04T15:11:35Z" duration-ms="4005" status="PASS">
+        <test-method signature="selectOptionFromDropDwon()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@64485a47]" started-at="2021-07-06T09:59:47Z" name="selectOptionFromDropDwon" finished-at="2021-07-06T09:59:49Z" duration-ms="2300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectOptionFromDropDwon -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.FormElementSelectTest@64485a47]" started-at="2021-07-06T09:59:49Z" name="getResult" finished-at="2021-07-06T09:59:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectOptionFromDropDwon status=SUCCESS method=FormElementSelectTest.selectOptionFromDropDwon()[pri:0, instance:com.gui.automation.test.FormElementSelectTest@64485a47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.FormElementSelectTest -->
       <class name="com.gui.automation.dataprovider.test.DataProviderLoginTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:08:13Z" name="beforeTest" finished-at="2021-07-04T15:08:41Z" duration-ms="28454" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:53:19Z" name="setUp" finished-at="2021-07-06T09:53:19Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:53:19Z" name="beforeTest" finished-at="2021-07-06T09:53:51Z" duration-ms="31969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:10:28Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-04T15:10:34Z" duration-ms="6417" status="PASS">
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:58:49Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T09:59:00Z" duration-ms="10472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,217 +160,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLoginDataProvider -->
-        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:10:34Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-04T15:10:35Z" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="getResult" finished-at="2021-07-06T09:59:00Z" duration-ms="63" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[adam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adam@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
+                <![CDATA[[TestResult name=successfulLoginDataProvider status=SUCCESS method=DataProviderLoginTest.successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14] output={null}]]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLoginDataProvider -->
-        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:10:35Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-04T15:10:35Z" duration-ms="547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLoginDataProvider -->
-        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:10:35Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-04T15:10:36Z" duration-ms="658" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eve]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[eve@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLoginDataProvider -->
-        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:10:36Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-04T15:10:37Z" duration-ms="539" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eve]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLoginDataProvider -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@289d1c02]" started-at="2021-07-04T15:12:11Z" name="afterTest" finished-at="2021-07-04T15:12:13Z" duration-ms="1848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.gui.automation.dataprovider.test.DataProviderLoginTest -->
-      <class name="com.gui.automation.test.AlertPopUpTest">
-        <test-method signature="alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@17d0685f]" started-at="2021-07-04T15:10:37Z" name="alertBoxTest" finished-at="2021-07-04T15:11:23Z" duration-ms="46309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alertBoxTest -->
-      </class> <!-- com.gui.automation.test.AlertPopUpTest -->
-      <class name="com.gui.automation.test.CheckBoxOptionsTest">
-        <test-method signature="checkBoxOptionsTest()[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@3891771e]" started-at="2021-07-04T15:11:23Z" name="checkBoxOptionsTest" finished-at="2021-07-04T15:11:27Z" duration-ms="4075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBoxOptionsTest -->
-      </class> <!-- com.gui.automation.test.CheckBoxOptionsTest -->
-      <class name="com.gui.automation.csvreader.readCSVTest">
-        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:08:41Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-04T15:09:06Z" duration-ms="24387" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[in28minutes]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dummy]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logindataFromCSV -->
-        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:09:06Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-04T15:09:21Z" duration-ms="15111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adam@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logindataFromCSV -->
-        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:09:21Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-04T15:09:50Z" duration-ms="29034" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logindataFromCSV -->
-        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:09:50Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-04T15:10:11Z" duration-ms="21368" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eve]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[eve@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Timed out waiting for driver server to start.
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-9SGE8AP', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-9SGE8AP', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at com.gui.automation.csvreader.readCSVTest.logindataFromCSV(readCSVTest.java:59)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
+at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -319,22 +213,365 @@ at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(Provide
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:22956/status] to be available after 20002 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
-... 44 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-... 45 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
+at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="getResult" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
+at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="getResult" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
+at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="getResult" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="successfulLoginDataProvider(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="successfulLoginDataProvider" data-provider="user-ids-passwords-dataprovider" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because "com.automate.web.firstcode.AbstractLaunchChromeBrowser.test" is null
+at com.automate.web.firstcode.AbstractLaunchChromeBrowser.getResult(AbstractLaunchChromeBrowser.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginDataProvider -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T09:59:00Z" name="getResult" finished-at="2021-07-06T09:59:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T10:00:27Z" name="afterTest" finished-at="2021-07-06T10:00:28Z" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gui.automation.dataprovider.test.DataProviderLoginTest@18bf3d14]" started-at="2021-07-06T10:00:28Z" name="tearDown" finished-at="2021-07-06T10:00:30Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gui.automation.dataprovider.test.DataProviderLoginTest -->
+      <class name="com.gui.automation.test.CheckBoxOptionsTest">
+        <test-method signature="checkBoxOptionsTest()[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@782663d3]" started-at="2021-07-06T09:59:38Z" name="checkBoxOptionsTest" finished-at="2021-07-06T09:59:41Z" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxOptionsTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@782663d3]" started-at="2021-07-06T09:59:41Z" name="getResult" finished-at="2021-07-06T09:59:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBoxOptionsTest status=SUCCESS method=CheckBoxOptionsTest.checkBoxOptionsTest()[pri:0, instance:com.gui.automation.test.CheckBoxOptionsTest@782663d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.CheckBoxOptionsTest -->
+      <class name="com.gui.automation.test.AlertPopUpTest">
+        <test-method signature="alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@42607a4f]" started-at="2021-07-06T09:59:00Z" name="alertBoxTest" finished-at="2021-07-06T09:59:38Z" duration-ms="38379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertBoxTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.AlertPopUpTest@42607a4f]" started-at="2021-07-06T09:59:38Z" name="getResult" finished-at="2021-07-06T09:59:38Z" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertBoxTest status=SUCCESS method=AlertPopUpTest.alertBoxTest()[pri:0, instance:com.gui.automation.test.AlertPopUpTest@42607a4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.gui.automation.test.AlertPopUpTest -->
+      <class name="com.gui.automation.csvreader.readCSVTest">
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:53:51Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T09:56:45Z" duration-ms="173067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in28minutes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logindataFromCSV -->
-        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:10:11Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-04T15:10:28Z" duration-ms="16586" status="PASS">
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:56:45Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T09:57:10Z" duration-ms="25018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adam@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:57:10Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T09:57:32Z" duration-ms="22082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:57:32Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T09:58:10Z" duration-ms="38821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindataFromCSV -->
+        <test-method signature="logindataFromCSV(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:58:10Z" name="logindataFromCSV" data-provider="read-data-csv" finished-at="2021-07-06T09:58:49Z" duration-ms="38601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,22 +592,44 @@ at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logindataFromCSV -->
-        <test-method signature="readDataFromCSV()[pri:0, instance:com.gui.automation.csvreader.readCSVTest@22eeefeb]" started-at="2021-07-04T15:10:28Z" name="readDataFromCSV" finished-at="2021-07-04T15:10:28Z" duration-ms="1" status="PASS">
+        <test-method signature="readDataFromCSV()[pri:0, instance:com.gui.automation.csvreader.readCSVTest@4fb64261]" started-at="2021-07-06T09:58:49Z" name="readDataFromCSV" finished-at="2021-07-06T09:58:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readDataFromCSV -->
       </class> <!-- com.gui.automation.csvreader.readCSVTest -->
       <class name="com.gui.automation.test.TestRadioButtons">
-        <test-method signature="getRadioButtons()[pri:0, instance:com.gui.automation.test.TestRadioButtons@12c8a2c0]" started-at="2021-07-04T15:11:39Z" name="getRadioButtons" finished-at="2021-07-04T15:11:43Z" duration-ms="3989" status="PASS">
+        <test-method signature="getRadioButtons()[pri:0, instance:com.gui.automation.test.TestRadioButtons@7276c8cd]" started-at="2021-07-06T09:59:53Z" name="getRadioButtons" finished-at="2021-07-06T09:59:57Z" duration-ms="4094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRadioButtons -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.TestRadioButtons@7276c8cd]" started-at="2021-07-06T09:59:57Z" name="getResult" finished-at="2021-07-06T09:59:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRadioButtons status=SUCCESS method=TestRadioButtons.getRadioButtons()[pri:0, instance:com.gui.automation.test.TestRadioButtons@7276c8cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.TestRadioButtons -->
       <class name="com.gui.automation.test.LoginTest">
-        <test-method signature="loginPageTest()[pri:0, instance:com.gui.automation.test.LoginTest@396e2f39]" started-at="2021-07-04T15:11:35Z" name="loginPageTest" finished-at="2021-07-04T15:11:36Z" duration-ms="1111" status="PASS">
+        <test-method signature="loginPageTest()[pri:0, instance:com.gui.automation.test.LoginTest@25bbf683]" started-at="2021-07-06T09:59:49Z" name="loginPageTest" finished-at="2021-07-06T09:59:50Z" duration-ms="1159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.gui.automation.test.LoginTest@25bbf683]" started-at="2021-07-06T09:59:50Z" name="getResult" finished-at="2021-07-06T09:59:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTest status=SUCCESS method=LoginTest.loginPageTest()[pri:0, instance:com.gui.automation.test.LoginTest@25bbf683] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.gui.automation.test.LoginTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

@@ -1,2 +1,144 @@
 [INFO ] 2021-07-05 01:48:17.427 [main] AlertPopUpTest - Sending name as Yogesh
 [INFO ] 2021-07-05 01:48:22.764 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 08:45:23.105 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 08:45:29.269 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 09:52:24.853 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 09:52:25.808 [main] CheckBoxOptionsTest - First element selcted from drop-down
+[INFO ] 2021-07-06 09:52:25.809 [main] CheckBoxOptionsTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 09:52:26.009 [main] CheckBoxOptionsTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 09:52:27.229 [main] CheckBoxOptionsTest - Selected drop-down element by value
+[INFO ] 2021-07-06 09:52:27.345 [main] CheckBoxOptionsTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 09:52:27.345 [main] CheckBoxOptionsTest - Printing all seclected options
+[INFO ] 2021-07-06 09:52:34.680 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 09:52:39.474 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 09:52:45.863 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 09:52:45.884 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 09:55:22.373 [main] CheckBoxOptionsTest - Launched automation practice page
+[INFO ] 2021-07-06 09:55:22.919 [main] CheckBoxOptionsTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 09:55:24.326 [main] CheckBoxOptionsTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 09:55:24.654 [main] CheckBoxOptionsTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 10:00:08.977 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 10:00:10.792 [main] CheckBoxOptionsTest - First element selcted from drop-down
+[INFO ] 2021-07-06 10:00:10.792 [main] CheckBoxOptionsTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 10:00:11.203 [main] CheckBoxOptionsTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 10:00:12.133 [main] CheckBoxOptionsTest - Selected drop-down element by value
+[INFO ] 2021-07-06 10:00:12.366 [main] CheckBoxOptionsTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 10:00:12.366 [main] CheckBoxOptionsTest - Printing all seclected options
+[INFO ] 2021-07-06 10:00:20.239 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 10:00:25.404 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 10:00:32.172 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 10:00:32.185 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 10:03:17.458 [main] CheckBoxOptionsTest - Launched automation practice page
+[INFO ] 2021-07-06 10:03:17.682 [main] CheckBoxOptionsTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 10:03:18.372 [main] CheckBoxOptionsTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 10:03:18.517 [main] CheckBoxOptionsTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 10:09:12.934 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 10:09:14.817 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 10:09:14.817 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 10:09:15.220 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 10:09:16.811 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 10:09:17.116 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 10:09:17.117 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 10:09:25.323 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 10:09:29.536 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 10:09:36.848 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 10:09:36.874 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 10:11:58.810 [main] readTableDataTest - Launched automation practice page
+[INFO ] 2021-07-06 10:11:59.524 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 10:12:01.856 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 10:12:02.963 [main] readTableDataTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 10:58:20.413 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 10:58:22.611 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 10:58:22.613 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 10:58:22.663 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 10:58:23.569 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 10:58:25.028 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 10:58:25.028 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 10:58:26.984 [main] TestRadioButtons - Practice page is launched
+[INFO ] 2021-07-06 10:58:29.507 [main] TestRadioButtons - Radio option3 is selected and validated successfully
+[INFO ] 2021-07-06 10:58:32.756 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 10:58:37.225 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 10:58:43.605 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 10:58:43.616 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 10:58:44.966 [main] WindowHandleTest - Practice page is lauched
+[INFO ] 2021-07-06 10:59:01.858 [main] WindowHandleTest - Window title has been validated successfully
+[INFO ] 2021-07-06 10:59:13.361 [main] TestTitleOfThePage - Practice page is launched
+[INFO ] 2021-07-06 10:59:15.501 [main] TestTitleOfThePage - Page title has been validated successfully
+[INFO ] 2021-07-06 10:59:16.690 [main] ExplicitWaitElementTest - Practice Page is launched
+[INFO ] 2021-07-06 10:59:18.642 [main] ExplicitWaitElementTest - hitext textbox clicked
+[INFO ] 2021-07-06 10:59:18.815 [main] ExplicitWaitElementTest - Validated that textbox is not displayed
+[INFO ] 2021-07-06 10:59:19.376 [main] ExplicitWaitElementTest - showText text box clicked
+[INFO ] 2021-07-06 10:59:28.048 [main] TextAreaTest - Practice page is launched
+[INFO ] 2021-07-06 10:59:28.877 [main] TextAreaTest - SomeText has been validated successfully after sending text to textbox
+[INFO ] 2021-07-06 10:59:29.713 [main] LoginTest - Practice page is launched
+[INFO ] 2021-07-06 11:01:43.374 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 11:01:43.914 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 11:01:43.914 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 11:01:43.945 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 11:01:44.091 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 11:01:44.501 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 11:01:44.501 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 11:01:46.077 [main] TestRadioButtons - Practice page is launched
+[INFO ] 2021-07-06 11:01:48.428 [main] TestRadioButtons - Radio option3 is selected and validated successfully
+[INFO ] 2021-07-06 11:01:49.700 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 11:01:53.985 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 11:02:00.223 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 11:02:00.276 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 11:02:01.826 [main] WindowHandleTest - Practice page is lauched
+[INFO ] 2021-07-06 11:02:36.642 [main] WindowHandleTest - Window title has been validated successfully
+[INFO ] 2021-07-06 11:07:53.569 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 11:07:54.603 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 11:07:54.604 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 11:07:55.175 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 11:07:55.975 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 11:07:56.505 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 11:07:56.505 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 11:07:59.962 [main] TestRadioButtons - Practice page is launched
+[INFO ] 2021-07-06 11:08:02.440 [main] TestRadioButtons - Radio option3 is selected and validated successfully
+[INFO ] 2021-07-06 11:08:04.123 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 11:08:08.377 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 11:08:14.940 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 11:08:14.951 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 11:08:16.616 [main] WindowHandleTest - Practice page is lauched
+[INFO ] 2021-07-06 11:08:24.674 [main] WindowHandleTest - Window title has been validated successfully
+[INFO ] 2021-07-06 11:08:41.016 [main] TestTitleOfThePage - Practice page is launched
+[INFO ] 2021-07-06 11:08:43.173 [main] TestTitleOfThePage - Page title has been validated successfully
+[INFO ] 2021-07-06 11:08:44.754 [main] ExplicitWaitElementTest - Practice Page is launched
+[INFO ] 2021-07-06 11:08:45.352 [main] ExplicitWaitElementTest - hitext textbox clicked
+[INFO ] 2021-07-06 11:08:45.523 [main] ExplicitWaitElementTest - Validated that textbox is not displayed
+[INFO ] 2021-07-06 11:08:45.795 [main] ExplicitWaitElementTest - showText text box clicked
+[INFO ] 2021-07-06 11:08:53.416 [main] TextAreaTest - Practice page is launched
+[INFO ] 2021-07-06 11:08:54.175 [main] TextAreaTest - SomeText has been validated successfully after sending text to textbox
+[INFO ] 2021-07-06 11:08:54.911 [main] LoginTest - Practice page is launched
+[INFO ] 2021-07-06 11:11:03.634 [main] readTableDataTest - Launched automation practice page
+[INFO ] 2021-07-06 11:11:04.207 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 11:11:05.799 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 11:11:06.045 [main] readTableDataTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 15:29:28.339 [main] AlertPopUpTest - Sending name as Yogesh
+[INFO ] 2021-07-06 15:29:32.621 [main] AlertPopUpTest - Sending name as Patil
+[INFO ] 2021-07-06 15:29:40.720 [main] CheckBoxOptionsTest - Practice page is launched
+[INFO ] 2021-07-06 15:29:40.773 [main] CheckBoxOptionsTest - Selecting a checkbox if not selected
+[INFO ] 2021-07-06 15:29:44.683 [main] ExplicitWaitElementTest - Practice Page is launched
+[INFO ] 2021-07-06 15:29:46.158 [main] ExplicitWaitElementTest - hitext textbox clicked
+[INFO ] 2021-07-06 15:29:46.441 [main] ExplicitWaitElementTest - Validated that textbox is not displayed
+[INFO ] 2021-07-06 15:29:46.910 [main] ExplicitWaitElementTest - showText text box clicked
+[INFO ] 2021-07-06 15:29:47.844 [main] FormElementSelectTest - Practice page is launched
+[INFO ] 2021-07-06 15:29:48.167 [main] FormElementSelectTest - First element selcted from drop-down
+[INFO ] 2021-07-06 15:29:48.167 [main] FormElementSelectTest - Getting element selcted from drop-down: 
+[INFO ] 2021-07-06 15:29:48.286 [main] FormElementSelectTest - Checking if drop-down is a multi-select: 
+[INFO ] 2021-07-06 15:29:48.803 [main] FormElementSelectTest - Selected drop-down element by value
+[INFO ] 2021-07-06 15:29:49.226 [main] FormElementSelectTest - Selected drop-down element by visible text
+[INFO ] 2021-07-06 15:29:49.226 [main] FormElementSelectTest - Printing all seclected options
+[INFO ] 2021-07-06 15:29:50.620 [main] LoginTest - Practice page is launched
+[INFO ] 2021-07-06 15:29:51.581 [main] readTableDataTest - Launched automation practice page
+[INFO ] 2021-07-06 15:29:51.633 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 15:29:52.777 [main] readTableDataTest - Reading table elements from Web Table
+[INFO ] 2021-07-06 15:29:53.052 [main] readTableDataTest - Person name is valdated successfully from Web table
+[INFO ] 2021-07-06 15:29:54.206 [main] TestRadioButtons - Practice page is launched
+[INFO ] 2021-07-06 15:29:57.031 [main] TestRadioButtons - Radio option3 is selected and validated successfully
+[INFO ] 2021-07-06 15:29:58.737 [main] TestTitleOfThePage - Practice page is launched
+[INFO ] 2021-07-06 15:30:00.753 [main] TestTitleOfThePage - Page title has been validated successfully
+[INFO ] 2021-07-06 15:30:07.888 [main] TextAreaTest - Practice page is launched
+[INFO ] 2021-07-06 15:30:09.837 [main] TextAreaTest - SomeText has been validated successfully after sending text to textbox
+[INFO ] 2021-07-06 15:30:10.752 [main] WindowHandleTest - Practice page is lauched
+[INFO ] 2021-07-06 15:30:27.103 [main] WindowHandleTest - Window title has been validated successfully
