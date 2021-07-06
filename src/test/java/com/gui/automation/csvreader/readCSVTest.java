@@ -14,6 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.opencsv.CSVReader;
@@ -28,6 +29,7 @@ public class readCSVTest {
 	}
 
 	@Test
+	@Ignore
 	public void readDataFromCSV() throws IOException {
 		List<String[]> data = CSVFrameWorkMethod(".\\src\\test\\resources\\login-data.csv");
 		for (String[] row : data) {

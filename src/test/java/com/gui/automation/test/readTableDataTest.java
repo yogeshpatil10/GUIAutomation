@@ -14,6 +14,7 @@ import com.automate.web.firstcode.AbstractLaunchChromeBrowser;
 
 public class readTableDataTest extends AbstractLaunchChromeBrowser {
 	@Test
+
 	public void readFromTableTest() {
 		Logger logger = LogManager.getLogger(readTableDataTest.class);
 		test = report.createTest("Read Data From Web Table Test");

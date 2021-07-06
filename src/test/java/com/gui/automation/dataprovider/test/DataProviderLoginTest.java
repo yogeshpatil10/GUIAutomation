@@ -5,6 +5,7 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.automate.web.firstcode.AbstractLaunchChromeBrowser;
@@ -20,6 +21,7 @@ public class DataProviderLoginTest extends AbstractLaunchChromeBrowser {
 	}
 
 	@Test(dataProvider = "user-ids-passwords-dataprovider")
+	@Ignore
 
 	public void successfulLoginDataProvider(String username, String pass, boolean isLoginToBeSuccessful) {
 		driver.get("http://localhost:8080/login");
