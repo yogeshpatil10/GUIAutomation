@@ -26,7 +26,7 @@ public class TextAreaTest extends AbstractLaunchChromeBrowser {
 	public void textArearTest() throws IOException {
 		Logger logger = LogManager.getLogger(TextAreaTest.class);
 
-		test = report.createTest("Text Area Test");
+		test = report.createTest("Text Area Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is launched");

@@ -17,7 +17,7 @@ public class readTableDataTest extends AbstractLaunchChromeBrowser {
 
 	public void readFromTableTest() {
 		Logger logger = LogManager.getLogger(readTableDataTest.class);
-		test = report.createTest("Read Data From Web Table Test");
+		test = report.createTest("Read Data From Web Table Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Launched automation practice page");

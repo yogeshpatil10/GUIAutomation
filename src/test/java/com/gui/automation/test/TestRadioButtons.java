@@ -18,7 +18,7 @@ public class TestRadioButtons extends AbstractLaunchChromeBrowser {
 	public void getRadioButtons() {
 		Logger logger = LogManager.getLogger(TestRadioButtons.class);
 
-		test = report.createTest("Radio Buttons Test");
+		test = report.createTest("Radio Buttons Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is launched");

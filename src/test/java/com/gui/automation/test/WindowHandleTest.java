@@ -23,7 +23,7 @@ public class WindowHandleTest extends AbstractLaunchChromeBrowser {
 
 		Logger logger = LogManager.getLogger(WindowHandleTest.class);
 
-		test = report.createTest("Window Handle Test");
+		test = report.createTest("Window Handle Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is lauched");

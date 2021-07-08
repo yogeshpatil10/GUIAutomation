@@ -18,7 +18,7 @@ public class ExplicitWaitElementTest extends AbstractLaunchChromeBrowser {
 	public void checkElementVisibility() {
 		Logger logger = LogManager.getLogger(ExplicitWaitElementTest.class);
 
-		test = report.createTest("Explicit Wait on Element Test");
+		test = report.createTest("Explicit Wait on Element Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice Page is launched");

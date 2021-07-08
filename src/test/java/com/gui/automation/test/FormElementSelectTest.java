@@ -17,7 +17,7 @@ public class FormElementSelectTest extends AbstractLaunchChromeBrowser {
 	@Test
 	public void selectOptionFromDropDwon() {
 		Logger logger = LogManager.getLogger(FormElementSelectTest.class);
-		test = report.createTest("Form Elements Select Test");
+		test = report.createTest("Form Elements Select Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is launched");

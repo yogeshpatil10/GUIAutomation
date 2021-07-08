@@ -21,7 +21,7 @@ public class AlertPopUpTest extends AbstractLaunchChromeBrowser {
 
 		Logger logger = LogManager.getLogger(AlertPopUpTest.class);
 
-		test = report.createTest("Alert Test");
+		test = report.createTest("Alert Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();

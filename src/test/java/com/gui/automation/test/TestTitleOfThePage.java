@@ -14,7 +14,7 @@ public class TestTitleOfThePage extends AbstractLaunchChromeBrowser {
 	public void getTitleOfPage() {
 		Logger logger = LogManager.getLogger(TestTitleOfThePage.class);
 
-		test = report.createTest("Title Of The Page Test");
+		test = report.createTest("Title Of The Page Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		// driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 

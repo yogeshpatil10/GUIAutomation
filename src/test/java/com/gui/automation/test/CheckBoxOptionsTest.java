@@ -16,7 +16,7 @@ public class CheckBoxOptionsTest extends AbstractLaunchChromeBrowser {
 	public void checkBoxOptionsTest() {
 
 		Logger logger = LogManager.getLogger(CheckBoxOptionsTest.class);
-		test = report.createTest("CheckBox Options Test");
+		test = report.createTest("CheckBox Options Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is launched");
