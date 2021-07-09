@@ -24,7 +24,6 @@ public class AlertPopUpTest extends AbstractLaunchChromeBrowser {
 		test = report.createTest("Alert Test").assignAuthor("Yogesh").assignCategory("Smoke");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
-		driver.manage().window().maximize();
 
 		logger.info("Sending name as Yogesh");
 		WebElement alertTextBox = driver.findElement(By.name("enter-name"));
