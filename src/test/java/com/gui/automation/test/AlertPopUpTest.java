@@ -44,6 +44,7 @@ public class AlertPopUpTest extends AbstractLaunchChromeBrowser {
 		sleep(5);
 
 		System.out.println(alert.getText());
+		logger.info("git branch purpose.");
 
 		assertEquals(alert.getText(), "Hello Yogesh Patil, share this practice page and share your knowledge");
 

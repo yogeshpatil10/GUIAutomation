@@ -13,7 +13,7 @@ public class LoginTest extends AbstractLaunchChromeBrowser {
 	public void loginPageTest() {
 		Logger logger = LogManager.getLogger(LoginTest.class);
 
-		test = report.createTest("Login Test").assignAuthor("Yogesh").assignCategory("Smoke");
+		test = report.createTest("Login Test").assignAuthor("Yogesh").assignCategory("Regression");
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		logger.info("Practice page is launched");
